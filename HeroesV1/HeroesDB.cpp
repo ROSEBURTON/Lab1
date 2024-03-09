@@ -41,7 +41,7 @@ bool HeroesDB::Deserialize(const std::string& s)
 	 
 	if (!doc.IsArray())
 		return false;
-	
+	 
 
 	_heroes.reserve(doc.Size());
 

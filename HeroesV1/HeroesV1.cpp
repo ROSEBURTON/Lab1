@@ -56,7 +56,7 @@ int main()
             std::cout << "All Hero Names:\n" << std::endl;
             HeroesDB heroesDB;
             break;
-        }
+        } 
         case 2:
         {
             Console::WriteLine("Remove hero by the name of: \n");
