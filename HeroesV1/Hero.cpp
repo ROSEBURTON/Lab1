@@ -106,7 +106,7 @@ bool Hero::Deserialize(const rapidjson::Value& obj)
 
 	//read object for Stats, Appearance, Bio, etc
 
-
+	
 	return true;
 }
 

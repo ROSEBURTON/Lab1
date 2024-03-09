@@ -38,7 +38,7 @@ bool HeroesDB::Deserialize(const std::string& s)
 	rapidjson::Document doc;
 	if (!InitDocument(s, doc))
 		return false;
-
+	 
 	if (!doc.IsArray())
 		return false;
 	
